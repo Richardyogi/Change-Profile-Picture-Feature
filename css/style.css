@@ -1,0 +1,89 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    outline: none;
+    border: none;
+    text-decoration: none;
+}
+
+body{
+    font-family: 'Nunito', sans-serif;
+    height: 667px;
+    width: 375px;
+    margin: auto;
+    border: 1px solid black;
+}
+
+.navbar{
+    display: flex;
+    background-color: #002984;
+}
+
+.navbar a{
+    margin: 17px 18px;
+    border-radius: 100%;
+    background-color: #fff;
+    width: 25px;
+    height: 25px;
+}
+
+.navbar h3{
+    font-size: 24px;
+    font-weight: 700;
+    color: #fff;
+    margin: 12px 10px 0 8px;
+}
+
+.sectionProfile{
+    display: flex;
+    flex-direction: column;
+}
+
+.section1{
+    display: flex;
+    margin: 15px 16px;
+}
+
+.section1 a{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    border-radius: 25%;
+    width: 56px;
+    height: 56px;
+    box-shadow: 4px 4px 8px rgba(0, 41, 132, 0.25);
+    background-color: #E0E0E0;
+}
+
+.personalData{
+    margin-left: 16px;
+}
+
+.personalData h3{
+    font-size: 12px;
+    font-weight: 700;
+}
+
+.personalData p{
+    font-size: 12px;
+    font-weight: 400;
+}
+
+.section2, .section3{
+    width: 341px;
+    height: 196px;
+    margin: 16px 17px;
+    background: #002984;
+    box-shadow: 4px 4px 8px rgba(0, 41, 132, 0.25);
+    border-radius: 8px;
+}
+
+.section4{
+    width: 341px;
+    height: 98px;
+    margin: 16px 17px;
+    background: #002984;
+    box-shadow: 4px 4px 8px rgba(0, 41, 132, 0.25);
+    border-radius: 8px;
+}
