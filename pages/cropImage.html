@@ -4,7 +4,41 @@
     <meta charset="UTF-8" />
     <meta http-equiv="X-UA-Compatible" content="IE=edge" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-    <title>Crop Image</title>
+    <title>Change Profile Picture</title>
+    <link
+      rel="stylesheet"
+      href="https://fonts.googleapis.com/css2?family=Material+Symbols+Outlined:opsz,wght,FILL,GRAD@48,400,0,0"
+    />
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Nunito:wght@400;700&display=swap"
+      rel="stylesheet"
+    />
+    <link rel="stylesheet" href="../css/style.css" />
+    <link rel="stylesheet" href="../js/script.js" />
+    <link
+      href="../node_modules/cropperjs/dist/cropper.min.css"
+      rel="stylesheet"
+    />
   </head>
-  <body></body>
+  <body>
+    <nav class="navbar">
+      <a href="../index.html"
+        ><span class="material-symbols-outlined"> arrow_back </span></a
+      >
+      <h3>Ganti Photo Profil</h3>
+    </nav>
+
+    <div class="capturedPhoto">
+      <img src="" id="filePhoto" />
+    </div>
+
+    <div class="saveFile">
+      <span class="btn-saveCrop">Simpan</span>
+    </div>
+
+    <script src="../js/script.js"></script>
+    <script src="../node_modules/cropperjs/dist/cropper.min.js"></script>
+  </body>
 </html>

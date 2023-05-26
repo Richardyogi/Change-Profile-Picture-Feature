@@ -4,22 +4,54 @@
     <meta charset="UTF-8" />
     <meta http-equiv="X-UA-Compatible" content="IE=edge" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-    <title>Choose Photo</title>
+    <title>Change Profile Picture</title>
+    <link
+      rel="stylesheet"
+      href="https://fonts.googleapis.com/css2?family=Material+Symbols+Outlined:opsz,wght,FILL,GRAD@48,400,0,0"
+    />
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Nunito:wght@400;700&display=swap"
+      rel="stylesheet"
+    />
+    <link rel="stylesheet" href="../css/style.css" />
   </head>
   <body>
     <nav class="navbar">
-      <a href=""><i data-feather="arrow-left"></i></a>
+      <a href="../index.html"
+        ><span class="material-symbols-outlined"> arrow_back </span></a
+      >
       <h3>Ganti Photo Profil</h3>
     </nav>
 
-    <img src="" id="imgProfile" />
-    <input
-      id="cameraFileInput"
-      type="file"
-      accept="image/"
-      capture="environment"
-    />
-    <button class="select-image">Choose From Gallery</button>
-    <button class="save">Simpan</button>
+    <div class="resultPhoto">
+      <img src="" id="imgProfile" />
+    </div>
+
+    <div class="chooseFile">
+      <label for="cameraFileInput">
+        <span class="btn">Ambil Dari Kamera</span>
+
+        <!-- The hidden file `input` for opening the native camera -->
+        <input
+          id="cameraFileInput"
+          type="file"
+          accept="image/*"
+          capture="environment"
+        />
+      </label>
+      <label for="galleryFileInput">
+        <span class="btn">Ambil Dari Gallery</span>
+
+        <input type="file" accept="image/*" id="galleryFileInput" hidden />
+      </label>
+    </div>
+
+    <div class="saveFile">
+      <span class="btn-save">Simpan</span>
+    </div>
+
+    <script src="../js/script.js"></script>
   </body>
 </html>

@@ -79,11 +79,65 @@ body{
     border-radius: 8px;
 }
 
-.section4{
+.resultPhoto{
+    width: 343px;
+    height: 343px;
+    background-color: #E0E0E0;
+    margin: 16px 15px;
+}
+
+.chooseFile{
+    display: flex;
+    flex-direction: column;
+}
+
+#cameraFileInput{
+    display: none;
+}
+
+.btn{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    color: #fff;
+    background-color: #006C84;
     width: 341px;
-    height: 98px;
-    margin: 16px 17px;
-    background: #002984;
-    box-shadow: 4px 4px 8px rgba(0, 41, 132, 0.25);
+    height: 40px;
     border-radius: 8px;
+    margin: 16px 17px;
+    box-shadow: 4px 4px 8px rgba(0, 41, 132, 0.25);
+}
+
+.btn:hover{
+    filter: brightness(0.9);
+}
+
+.saveFile{
+    display: flex;
+    justify-content: center;
+    align-items: flex-end;
+}
+
+.btn-save{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-color: #E0E0E0;
+    height: 44px;
+    width: 375px;
+    margin-top: 45px;
+}
+
+.btn-saveCrop{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-color: #002984;
+    height: 44px;
+    width: 375px;
+    margin-top: 45px;
+}
+
+btn-save:hover{
+    filter: brightness(0.9);
 }
